@@ -52,8 +52,20 @@
   <build_depend>tmc_eigen_bridge</build_depend>
   <build_depend>tmc_manipulation_types_bridge</build_depend>
   <build_depend>tmc_utils</build_depend>
-  
-  
+  <build_depend>tmc_yolo2_ros</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>actionlib_msgs</build_depend>
+  <build_depend>activity_detection</build_depend>
+<!--   <build_depend>openpose_ros_msgs</build_depend>
+
+  <run_depend>openpose_ros_msgs</run_depend> -->
+  <run_depend>activity_detection</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>actionlib_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>tmc_yolo2_ros</run_depend>  
   <run_depend>actionlib</run_depend>
   <run_depend>roscpp</run_depend>
   <run_depend>rospy</run_depend>
